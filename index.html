@@ -1,0 +1,158 @@
+ <!doctype html>
+<html>
+<head>
+
+     
+    <link rel="license" href="https://www.opensource.org/licenses/mit-license/">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="gondericiadres" align="left">
+    <table cellpadding="0" cellspacing="0">
+        <tr class="top">
+        <td colspan="5">
+            <div align="left">
+                <hr size="5" width="50%" align="left" color="black"> <!--Gönderici Adres Alanında ki Üst Çizgiyi Ayarlar-->
+                <table>
+                  <tr>
+                    <td>
+                      Detay Test Analiz Laboratuvar İş Sağlığı Ve Güvenliği 
+                      Çevre Gıda <br/>Eğitim Ölçüm Danışm.tic.ltd.şti <br />
+                      BEYTEPE MAH.5345 SOKAK No:2
+                      Kapı No:65 <br />
+                      06800 Çankaya/ Ankara <br />
+                      Tel: 5413545377 <br />
+                      E-Posta: info@detayanalizlab.com.tr <br />
+                      Vergi Dairesi: DOĞANBEY VERGİ DAİRESİ MÜDÜRLÜĞÜ <br />
+                      VKN: 2890704003 <br />
+                    </td>
+                
+                  </tr>
+                </table>
+                <hr size="5" width="50%" align="left" color="black"> <!-- Gönderici Adres Alanında ki Alt Çizgiyi Ayarlar-->
+
+                </div class="alicibilgileri">
+                <div align="left">
+                    <hr size="5" width="50%" align="left" color="black"> <!-- Gönderici Adres Alanında ki Üst Çizgiyi Ayarlar-->
+                    <form action="" method="" >
+                        Ad/Soyad-Unvan:<input type="text" name="adsoyad">
+                        <br>
+                        Adres<br>
+                        <textarea rows="5" cols="50"></textarea> <br/>
+                        Vergi Dairesi
+                        <textarea rows="1" cols="30"></textarea> <br/>
+                        VKN/TCKN:<input type="number" name="tcknvkn">
+                        </form>
+                    <hr size="5" width="50%" align="left" color="black"> <!-- Gönderici Adres Alanında ki Alt Çizgiyi Ayarlar-->
+                        <form action="" method="">
+                            ETTN:<textarea rows="1" cols="50" name="ETTN" ></textarea>
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="faturabilgileri" align="right" valign="bottom"> 
+                    <form>
+
+                        Senaryo Türü:
+                        <select name="senaryoturu">
+                            <option value="temelFatura">Temel Fatura</option>
+                            <option value="ticariFatura">Ticari Fatura</option>
+                            <option value="yolcuBeraberFatura">Yolcu Beraber Fatura</option>
+                            <option value="ihracatFatura">İhracat Fatura</option>
+                            <option value="hks">HKS</option>
+                            <option value="kamu">Kamu</option>
+                         </select>
+
+                         <br/>Fatura Tipi:
+                         <select name="faturaTipi">
+                             <option value="satis">Satış</option>
+                             <option value="iade">İade</option>
+                             <option value="tevkifat">Tevkifat</option>
+                             <option value="istisna">İstisna</option>
+                             <option value="ozelMatrah">Özel Matrah</option>
+                             <option value="ihracKayitli">İhraç Kayıtlı</option>
+                             <option value="sgk">SGK</option>
+                             <option value="tevkifatIade">Tevkifat İade</option>
+                            </select>
+                         <br/>Fatura No:<input type="text" name="faturaNo">
+                         <br/>Tarih:
+                         <input type="datetime-local" name="tarihsaatdakika" />
+                        </form>
+                </div>
+
+                <div class ="kolaysoftlogo">
+                    <img src="kolaysoft.png" width="200" height="150">
+                </div>
+
+                <div class ="giblogo" >
+                    <img src="gib.png" width="150" height="100">
+                </div>
+                    
+
+                <br/><br/><br/>
+                <div class="urunhizmetbilgileri">
+                    <table class="hesaptable" style="width: 100%;">
+                      <tr>
+                        <th><span>Sıra No</span></th>
+                        <th><span>Mal Hizmet</span></th>
+                        <th><span>Miktar</span></th>
+                        <th><span>Birim Fiyat</span></th>
+                        <th><span>KDV Oranı</span></th>
+                        <th><span>KDV Tutarı</span></th>
+                        <th><span>Diğer Vergiler</span></th>
+                        <th><span>Mal Hizmet Tutarı</span></th>
+                      </tr>
+                      <tbody>
+                        <tr>
+                          <td><span><input name="sirano" type="text" maxlength="10" style="width: 75px;border: 5"></span></td>
+                          <td><span><input name="malhizmet" type="text" maxlength="10" style="width: 75px;border: 5"></span></td>
+                          <td><span><input name="miktar" type="text" maxlength="10" style="width: 75px;border: 5"></span></td>
+                          <td><span><input name="birimfiyat" type="text" maxlength="10" style="width: 75px;border: 5"></span>
+                          </td>
+                          <td><span><input name="kdvorani" type="text" maxlength="10" style="width: 75px;border: 5"></span></td>
+                          <td><span><input name="kdvtutari" type="text" maxlength="10" style="width: 75px;border: 5"></span></td>
+                          <td><span><input name="digervergiler" type="text" maxlength="10" style="width: 75px;border: 5"></span>
+                          </td>
+                          <td><span><input name="malhizmettutari" type="text" maxlength="10"
+                                style="width: 120px;border: 5"></span></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <br><br>
+                  <div class="altbilgi">
+                    <table class="altbilgi" align="right">
+                      <tr>
+                        <th style="text-align:right">Mal Hizmet Toplam Tutarı</th>
+                        <td><input type="text" name="malhizmet"></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align:right">Toplam İskonto</th>
+                        <td><input type="text" name="iskonto"></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align:right">Mal Hizmet Toplam Tutarı</th>
+                        <td><input type="text" name="malhizmet"></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align:right">Hesaplanan GERÇEK USÜLDE KATMA DEĞER VERGİSİ(%8)</th>
+                        <td><input type="text" name="kdvoran"></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align:right">Vergiler Dahil Toplam Tutar</th>
+                        <td><input type="text" name="kdvtutar"></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align:right">Ödenecek Tutar</th>
+                        <td><input type="text" name="malhizmettutar"></td>
+                    </tr>
+                    </table>
+                  </div>                 
+</body>
+
+</html>
